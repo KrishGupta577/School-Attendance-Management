@@ -82,7 +82,7 @@ const FinanceChart = () => {
           <CartesianGrid strokeDasharray="3 3" stroke='#ddd' />
           <XAxis dataKey="name" axisLine={false} tick={{ fill: "#d1d5db" }} tickLine={false} tickMargin={10}/>
           <YAxis axisLine={false} tickMargin={10}/>
-          <Tooltip contentStyle={{ borderRadius: "10px", borderColor: "lightgrey" }} />
+          <Tooltip contentStyle={{ borderRadius: "10px", borderColor: "lightgray" }} />
           <Legend align='center' verticalAlign='top' wrapperStyle={{paddingTop:"10px", paddingBottom:"10px"}}/>
           <Line
             type="monotone"
